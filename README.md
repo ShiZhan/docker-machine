@@ -4,10 +4,6 @@ Homebrew docker-machine, alternative Docker Toolkit for Windows without Hyper-V 
 
 Based on [ubuntu-xenial-docker](https://app.vagrantup.com/envimation/boxes/ubuntu-xenial-docker)
 
-Copy ssh public key into this machine:
-
-```bash
-ssh-copy-id vagrant@192.168.33.11
-```
+To generate or refresh key pair, use `refresh-key-pair.sh`.
 
 Zhan.Shi @ 2017
