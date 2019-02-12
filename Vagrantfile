@@ -10,7 +10,7 @@ Vagrant.configure("2") do |config|
     dm.vm.box_version = "1.0.0-1502068394"
     dm.vm.box_check_update = false
     dm.vm.provider "virtualbox" do |vb|
-      vb.memory = "8192"
+      vb.memory = "4096"
       vb.cpus = 4
     end
     dm.vm.network "private_network", ip: "192.168.33.11"
